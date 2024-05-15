@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd:latest
 COPY . /var/www/html
 EXPOSE 80
-CMD ["httpd", "-D", "FOREGROUND"]
+CMD ["httpd", "-D", "FOREGROUND"]s
